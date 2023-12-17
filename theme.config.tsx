@@ -3,11 +3,11 @@ import { useRouter } from "next/router"
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <h1 className='nx-font-bold'>Fun System Design</h1>,
+  logo: <h1 className='nx-font-bold'>System Design Craft</h1>,
   project: {
-    link: 'https://github.com/yuangwei/fun-system-design',
+    link: 'https://github.com/yuangwei/system-design-craft',
   },
-  docsRepositoryBase: 'https://github.com/yuangwei/fun-system-design',
+  docsRepositoryBase: 'https://github.com/yuangwei/system-design-craft',
   footer: {
     text: `${new Date().getFullYear()} © Yuang Wei`,
   },
@@ -24,12 +24,12 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter();
     if (asPath === "/") {
       return {
-        titleTemplate: "Fun System Design",
+        titleTemplate: "System Design Craft",
       };
     }
 
     return {
-      titleTemplate: "%s - Fun System Design",
+      titleTemplate: "%s - System Design Craft",
     };
   },
 }

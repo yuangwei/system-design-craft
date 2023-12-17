@@ -1,2 +1,2 @@
-# fun-system-design
-Some system design knowledge and practices.
+# system-design-craft
+System design knowledge and practices.

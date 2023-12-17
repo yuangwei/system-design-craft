@@ -1,7 +1,7 @@
 {
-  "name": "javascript-leetcode",
+  "name": "system-design-craft",
   "version": "0.0.1",
-  "description": "Leetcode solutions with javascript",
+  "description": "System design knowledge and practices.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yuangwei/leetcode.git"
+    "url": "git+https://github.com/yuangwei/system-design-craft.git"
   },
   "author": "Yuang Wei <hi@yuangwei.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yuangwei/leetcode/issues"
+    "url": "https://github.com/yuangwei/system-design-craft/issues"
   },
-  "homepage": "https://leetcode.about-blank.io",
+  "homepage": "https://system-design.about-blank.io",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
